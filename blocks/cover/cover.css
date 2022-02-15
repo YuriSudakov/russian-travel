@@ -1,13 +1,14 @@
 .cover {
   display: flex;
   padding: 0;
-  margin: 66px 0 0 0;
-  max-width: calc(1280px - 48px * 2);
+  margin: 66px auto 0 auto;
+  max-width: 100%;
 }
 
 @media screen and (min-width: 1280px) {
   .cover {
-    margin: 92px 48px 0 48px;
+    margin: 92px auto 0 auto;
+    max-width: calc(1280px - 48px * 2);
     /*width: calc(100vw - 48px * 2);*/
 
   }
@@ -15,14 +16,14 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .cover {
-    margin: 92px 0 0 0;
+    margin: 92px auto 0 auto;
     /*width: 100vw;*/
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .cover {
-    margin: 90px 0 0 0;
+    margin: 90px auto 0 auto;
     /*width: 100vw;*/
   }
 }
