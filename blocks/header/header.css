@@ -2,8 +2,7 @@
   display: flex;
   flex-direction: row;
   width: calc(100% - 16px * 2);
-  height: 42px;
-  margin: 0;
+  /*height: 42px;*/
   margin: 16px 16px 0 16px;
   justify-items: stretch;
 }
@@ -12,7 +11,7 @@
   .header {
     width: calc(100% - 48px * 2);
     margin: 28px 48px 0 48px;
-    height: 52px;
+    /*height: 52px;*/
   }
 }
 
@@ -20,13 +19,13 @@
   .header {
     width: calc(100% - 24px * 2);
     margin: 28px 24px 0 24px;
-    height: 52px;
+    /*height: 52px;*/
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+/*@media screen and (min-width: 320px) and (max-width: 767px) {
   .header {
     width: calc(100% - 16px * 2);
     margin: 16px 16px 0 16px;
   }
-}
+}*/

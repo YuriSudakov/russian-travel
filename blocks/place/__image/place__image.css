@@ -26,8 +26,8 @@
   .place__image {
     display: flex;
     flex-direction: column;
-    margin-top: 32px;
+    /*margin-top: 32px;
     width: 320px;
-    height: 320px;
+    height: 320px;*/
   }
 }

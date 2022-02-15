@@ -1,37 +1,7 @@
-@font-face {
-	font-family: 'inter';
-	font-style: normal;
-	font-weight: 400;
-	src: local('Inter'),
-		url('../../fonts/inter/regular.woff') format('woff'),
-		url('../../fonts/inter/regular.ttf') format('ttf');
-}
-
-@font-face {
-	font-family: 'inter';
-	font-style: normal;
-	font-weight: 700;
-	src: local('Inter'),
-		url('../../fonts/inter/bold.woff') format('woff'),
-		url('../../fonts/inter/bold.ttf') format('ttf');
-}
-
-@font-face {
-	font-family: 'inter';
-	font-style: normal;
-	font-weight: 900;
-	src: local('Inter'),
-		url('../../fonts/inter/black.woff') format('woff'),
-		url('../../fonts/inter/black.ttf') format('ttf');
-}
-
 .page {
   display: flex;
   flex-direction: column;
-  /*min-width: 320px;
-  max-width: 1280px;*/
-  /*width: auto;*/
-  /*width: 100vw;*/
+  min-width: 320px;
   max-width: 1280px;
   margin: 0 auto;
   background-color: #2A2C2F;
