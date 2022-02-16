@@ -6,9 +6,12 @@
   /*back*/
   background-image: url(../../images/_dmitrii-vaccinium-22833-unsplash.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100%;
+  background-position: center;
   /*z-index: 10;*/
   min-width: 320px;
+  width: 100vw;
+  /*min-height: calc(100vw * 0.625);*/
   min-height: calc(100vw * 0.625);
 }
 
@@ -18,7 +21,8 @@
     max-width: calc(1280px - 48px * 2);
     /*width: calc(100vw - 48px * 2);*/
     /*back*/
-    min-height: calc((100vw - 48px * 2) * 0.625);
+    /*min-height: calc((100vw - 48px * 2) * 0.625);*/
+    min-height: calc((1280px - 48px * 2) * 0.625);
   }
 }
 
