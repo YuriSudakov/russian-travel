@@ -8,7 +8,7 @@
   text-decoration-line: underline;
   color: #FFFFFF;
   width: max-content;
-  line-height: 1.85;
+  margin-top: 5px;
 }
 
 .place__link:hover {
